@@ -1,14 +1,16 @@
 # GDIM 33 In-Class Activities
 ## W1
 ### Activity 1
-Put your inspo board link here. Do NOT leave a bare URL. REMOVE ALL INSTRUCTIONAL TEXT.
+[text](https://docs.google.com/drawings/d/1FzHw0snFg2F6ypzWUP6gd9ILTZMrTsw-iBYU8GAcVxg/edit?usp=sharing)
 
-1. Put your activity 1 answers here.
-2. Please keep the proper list format.
+1. There aren't too many patterns emerging from my drawing board. Mainly, the pattern I see is that I like character designs with lots of lore behind them, which can go along with my appreciation of abstract album covers to create character designs that are abstract in their design, but that abstractness works towards creating a design that incorporates that lore into it. I'm not an artist myself, but I hope I could incorporate that into my design.
+2. My tablemate had a style board more focused on cars, which isn't in relation to my board, but I do also like cars a lot. I just didn't want to incorporate that on my inspiration board.
+3. My LA liked Overwatch as well, which I inquired to him about what characters he liked playing in the game. He said he liked to play DPS heroes, but didn't specify on which was his favorite to play. It seems he also really likes hero shooters and likes the lore behind the characters.
 
 
 ### Activity 2
-Put your activity 2 image here. REMOVE THIS INSTRUCTIONAL TEXT.
+Basic 2D Mega Man-like idea:
+[text](https://docs.google.com/drawings/d/16qWkAFiQ3Pfj0BlwnqwOK9GG7Tn62i4i53KH2tp2r0g/edit?usp=sharing)
 
 
 ## W2
