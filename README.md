@@ -1,6 +1,7 @@
 # GDIM 33 In-Class Activities
 ## W1
 ### Activity 1
+Mood board: 
 [text](https://docs.google.com/drawings/d/1FzHw0snFg2F6ypzWUP6gd9ILTZMrTsw-iBYU8GAcVxg/edit?usp=sharing)
 
 1. There aren't too many patterns emerging from my drawing board. Mainly, the pattern I see is that I like character designs with lots of lore behind them, which can go along with my appreciation of abstract album covers to create character designs that are abstract in their design, but that abstractness works towards creating a design that incorporates that lore into it. I'm not an artist myself, but I hope I could incorporate that into my design.
