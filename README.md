@@ -21,3 +21,16 @@ Basic 2D Mega Man-like idea:
 Write your W2 Devlog here.
 
 Continue adding additional headers below this one for future weeks and future activities.
+
+## W3
+### Activity 1
+Updated Break-Down: 
+<img width="960" height="720" alt="Basic 2D Mega Man-like platformer breakdown_Joshua Paxton-5" src="https://github.com/user-attachments/assets/8ae87090-2b0a-4631-a473-9fba1031a55f" />
+
+
+### Activity 2
+1. It is advantageous to save the event name for the explore-to-dialogue state transitions as scene variable because that allows it to be used across all scripts in the scene, which will save its state between scripts and allows it to be called again with no difficulties.
+2. Using a debug log node helped me when I was trying to get the state transition from the explore state to the dialogue state to work. Whenever I clicked, the dialogue wasn't opening, but with a debug log node, I could see that my clicks were registering, which meant that the issue was dealing with the node after the debug node. From that point, I was able to figure out how to fix it.
+3. The set cursor lock state isn't relevant to my vertical slice, as all of my controls are meant to be used with keyboard controls as opposed to mouse inputs, so the state of my cursor doesn't matter.
+4. I will be using a game state in my vertical slice. Most likely, it will be used to play animations, such as if the player is damaged, switch the player model to a damaged sprite for half a second.
+
