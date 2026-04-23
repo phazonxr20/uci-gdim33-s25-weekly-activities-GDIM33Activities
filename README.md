@@ -36,8 +36,14 @@ Updated Break-Down:
 Playtest build: https://phazon-xr20.itch.io/cybershift-first-build
 Playtest partners: Jasmine & Gio
 
-Playtesting notes: I need to edit my box collider on my player since it includes my gun asset, which keeps getting stuck on the edges of my tilemap. I also need to edit the parallax effect on my background, since the background elements are moving too fast to where it either looks like my player is moving too fast, or the background is glitching out. I also should remove the collison of my projectiles that I shoot, which I already knew to do.
+I have the basic movement mechanics working in my build, alongside shooting, although the player can collide with their own bullets. I also have a small section of the tilemap created. 
+
+My main goal in this playtesting is to see how people like the aestetic of the game currently, because I already know I have a lot more to do in terms of further coding the gameplay.
+
+Playtesting notes: I need to edit my box collider on my player since it includes my gun asset, which keeps getting stuck on the edges of my tilemap. I also need to edit the parallax effect on my background, since the background elements are moving too fast to where it either looks like my player is moving too fast, or the background is glitching out. I also should remove the collison of my projectiles that I shoot, which I already knew to do. However, they really did like the scrolling background I created.
 
 ### Activity 2
-
+1. A writer could add more dialogue to this setup if they understand the visual scripting logic behind it. All they really need to do is add more ScriptableObjects with dialogue onto them. However, if they wanted to add more than options, they would need to know how to code in the ability to add more options.
+2. There is a limit of 4 dialogue options that can be added without adding any more code.
+3. The regenerate nodes button allows Unity to add in any additional variables and events that were created in C# code that weren't present when the nodes were originally created. This will allow the new variables and events to be added as nodes with the old nodes.
 
