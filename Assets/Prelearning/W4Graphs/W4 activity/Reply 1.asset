@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d87814806be98455aa06d85e22ad29d6, type: 3}
+  m_Name: Reply 1
+  m_EditorClassIdentifier: 
+  visualFlair: {fileID: 0}
+  Line: Finally, they arrested him. Hope he gets then death penalty
+  ReplyOptions:
+  - line: Yessir, his ahh is finally gonna be gone from this world
+    nextNode: {fileID: 11400000, guid: 0eae61263c7bf43d48d06cc33afe9a6e, type: 2}
+  - line: R.I.P Celeste
+    nextNode: {fileID: 11400000, guid: 6fd4c4d9de22847949867ade02633915, type: 2}

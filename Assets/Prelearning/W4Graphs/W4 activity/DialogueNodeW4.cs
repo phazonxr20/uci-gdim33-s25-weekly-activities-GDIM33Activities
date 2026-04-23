@@ -8,6 +8,7 @@ namespace W4Activity
     {
         //---------------------------------------------------------------------
         // Variables
+        public GameObject visualFlair;
         //---------------------------------------------------------------------
         [Tooltip("The line of dialogue the NPC says in this node.")]
         public string Line;
