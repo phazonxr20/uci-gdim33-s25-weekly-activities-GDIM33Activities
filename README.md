@@ -47,3 +47,21 @@ Playtesting notes: I need to edit my box collider on my player since it includes
 2. There is a limit of 4 dialogue options that can be added without adding any more code.
 3. The regenerate nodes button allows Unity to add in any additional variables and events that were created in C# code that weren't present when the nodes were originally created. This will allow the new variables and events to be added as nodes with the old nodes.
 
+## W5
+### Activity 1
+I've integrated tilemaps as platforms already, but my goal today is to learn how to use tilemaps to paint and instantiate enemies as interactable game objects across my level. I don't know how to paint game objects with tilemaps, but it will be very useful in filling out my level once I learn how to do it. 
+
+Proposed Steps:
+1. Convert an enemy sprite(s) into a usable sprite sheet by changing the sprite mode and slicing it.
+2. Potentially combine sprites into a sprite sheet if they cannot be used individually
+3. **Figure out how to use the game object brush**
+4. Assign the created sprite sheet to the enemy prefab
+5. Paint clones of the enemy prefab around the map on usable objects
+6. Potentially use a debug log to test the clones for collision with my already created projectiles (they won't deal damage yet)
+7. Profit 🤑
+
+### Activity 2
+Doumentation I used to create this: https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@8.0/manual/GameObjectBrush.html
+
+In class, I was able to figure out out to use the game object brush to paint my enemy objects on my game's canvas. It was hard trying to do this, because there isn't much documentation, and a lot of the LA's hadn't used this specific aspect of tilemaps, but after a lot of perseverence and asking for help, I was able to figure it out. Now, I will use this to paint my enemy objects across my game level so I don't have to copy and paste copies of them across the whole level.
+
