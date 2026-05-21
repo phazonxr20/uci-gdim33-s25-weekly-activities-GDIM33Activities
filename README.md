@@ -65,3 +65,20 @@ Doumentation I used to create this: https://docs.unity3d.com/Packages/com.unity.
 
 In class, I was able to figure out out to use the game object brush to paint my enemy objects on my game's canvas. It was hard trying to do this, because there isn't much documentation, and a lot of the LA's hadn't used this specific aspect of tilemaps, but after a lot of perseverence and asking for help, I was able to figure it out. Now, I will use this to paint my enemy objects across my game level so I don't have to copy and paste copies of them across the whole level.
 
+## Wks 6-7 were excused 
+
+## W8
+### Activity 1
+
+From my last playtest build, I have made my enemies interactiable in terms of the player taking damage from them, and the player being able to deal damage to them. I have also created a boss enemy at the end of the level that cycles through 3 states: an idle state, a jumping state, and a shooting state. I also made the charge shot ability into an actual power up. which can be found near the middle of the level and allows the player to hold down the shoot button for a second and a half to release a charged up shot that deals triple damage to enemies. 
+
+My playtesting goals are to basically show off what I currently have so far to see people's opinions on them. I already know what I still need to do, but I just haven't had the time to do it for this build. Really, I just want to see people's reactions of what I was able to make in the limited time I had.
+
+People who playtested: Gio and Angel
+
+Notes: The platforming gameplay is solid, but I need to flesh out the responsiveness of the combat. I should add a little flash when enemies are taking damage and when the player takes damage. I should also add a little flash when the player is charging up the charge shot for clarity's sake. I might also add in a little dialogue when the player picks up the power up just so they know more clearly what it is they got. I should also work on the tilemap side hitboxes so the player cannot stick to them when they run into them while jumping.
+
+Build link: https://phazon-xr20.itch.io/cybershift-may-20th-playtest-build
+
+### Activity 2c
+
