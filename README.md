@@ -82,3 +82,7 @@ Build link: https://phazon-xr20.itch.io/cybershift-may-20th-playtest-build
 
 ### Activity 2c
 
+1. The name of the effect we created in the frame debugger is FullScreenPassRendererFeature. We can tell because when we highlight it in the frame debugger, it applies the metallic texture to the screen.
+2. At a lerp value of 0.5, the screen has a faded imprint of the metallic texture, while still retaining most of the green background color it had before. At 0, it has no metallic texture at all, and at 1, the whole screen becomes full of the metallic texture effect.
+3. The screen looks like this at the different lerp values because the lerp value is multiplying the two texture values, which gives the “percentage” value that is displayed on the screen, which determines how much the two effects are fused together on the screen.
+4. We use (sin(time)+1)/2 as the lerp value to fix the issue because (sin(time)+1)/2 is the proper oscillating sine wave formula, which will properly go through the values from 0 to 1. Just using sin(time) won’t properly oscillate, which leads to the bright stage that wasn’t supposed to happen.
