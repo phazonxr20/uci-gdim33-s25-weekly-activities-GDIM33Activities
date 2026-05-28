@@ -86,3 +86,15 @@ Build link: https://phazon-xr20.itch.io/cybershift-may-20th-playtest-build
 2. At a lerp value of 0.5, the screen has a faded imprint of the metallic texture, while still retaining most of the green background color it had before. At 0, it has no metallic texture at all, and at 1, the whole screen becomes full of the metallic texture effect.
 3. The screen looks like this at the different lerp values because the lerp value is multiplying the two texture values, which gives the “percentage” value that is displayed on the screen, which determines how much the two effects are fused together on the screen.
 4. We use (sin(time)+1)/2 as the lerp value to fix the issue because (sin(time)+1)/2 is the proper oscillating sine wave formula, which will properly go through the values from 0 to 1. Just using sin(time) won’t properly oscillate, which leads to the bright stage that wasn’t supposed to happen.
+
+## W9
+
+### Activity 1
+
+Our group chose Minecraft as our game to focus on. For the specific gameplay post-processing effects, we picked the nausea potion effect in the game and the black outline that every block recives when the player highlights their cursor over it. To build the nausea potion effect, we decided that the best way to build it was using a shader graph that would twist and manipulate the camera's position around the screen based on a delta time node. This delta time node would reset the screen back to normal every couple of seconds so that the screen would then restart its screen twisting effect. This effect would also apply to the nether travel effect, but with a shader graph to create a purple effect on the screen as well. To create the black outline on the blocks, we thought that we would use a renderer feature that would give every block a black outline by default, but by tracking the mouse position on the blocks, it would only show once the mouse hovers over it. 
+
+### Activity 2
+
+<img width="709" height="376" alt="Screenshot 2026-05-28 at 12 53 29 AM" src="https://github.com/user-attachments/assets/5a1c36b4-7bb0-48d3-9431-a6f4bf5d6325" />
+
+I have been working on creating a simple rain effect as my post processing effect instead of trying to find a pixel art texture. I spent class today and a good amount of time after trying to create this after looking up how online. I used the posterize and simple noise nodes to create a pixelized texture that flashes and falls, and I am able to control how much of the flash shows. This flash is the rain that will be used in my game. 
