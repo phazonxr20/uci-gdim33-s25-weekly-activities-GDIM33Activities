@@ -98,3 +98,25 @@ Our group chose Minecraft as our game to focus on. For the specific gameplay pos
 <img width="709" height="376" alt="Screenshot 2026-05-28 at 12 53 29 AM" src="https://github.com/user-attachments/assets/5a1c36b4-7bb0-48d3-9431-a6f4bf5d6325" />
 
 I have been working on creating a simple rain effect as my post processing effect instead of trying to find a pixel art texture. I spent class today and a good amount of time after trying to create this after looking up how online. I used the posterize and simple noise nodes to create a pixelized texture that flashes and falls, and I am able to control how much of the flash shows. This flash is the rain that will be used in my game. 
+
+## Wk 10
+
+### Activity 1
+
+From my last playtest build, I added enemy damage flashes and player flashes. I also added in a rain shader effect I created, and I added in a ui element for dying and restarting the game. I didn't have enough time before the playtest to create the rest of my ui assets, like the player's health and the start screen. I also forgot to create the deathbox for falling off the map before the playtest 💀.
+
+My playtesting goals are to basically show off what I currently have so far to see people's opinions on them. I already know what I still need to do, but I just haven't had the time to do it for this build. Really, I just want to see people's reactions of what I was able to make in the limited time I had.
+
+People who playtested: Gio
+
+Notes: The platforming gameplay is still very solid, and honestly, all I need to to is create the rest of my UI elements. I could add more complex platformer elements such as a dash movement ability, but it isn't necessary. Really, I just need to do what I already know I need to do, like adding in the pit deathbox, and adding UI for the player health.
+
+Build Link: https://phazon-xr20.itch.io/cybershift-final-playtest-build
+
+### Activity 2
+
+For our group, our main planning strategy would be to meet together and make a diagram on a platform like FreeForm to break down the core game mechanics into sections. These sections will have detailed information about what each component of the game will contain in terms of artwork, coding, and linked UI assets. If the information is too big to have in just one bubble for a mechanic, we decided it would be best to split it up into multiple sections with more specific information and follow that. With these bubblts, then we would split up the work and work on our individual parts to then combine later into the full game.
+
+### Activity 3
+
+In class today, I ended up finishing the UI for dying in my game. I had most of it done before class, but I finished it up here. Now, my game restarts and has a screen for restarting properly.
